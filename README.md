@@ -20,6 +20,7 @@ Read `RAC-SCHEMA.md` to understand the XML boundaries. The repository is structu
 | Directory | Tag Strategy | Purpose |
 |-----------|--------------|---------|
 | `concepts/` | `<concept>` | Theoretical rules on how to document architecture and maintain state. |
+| `skills/` | `<template>` | Global and project-level skills wrapped in RAC boundaries. |
 | `templates/` | `<template>` | Raw, copy-pasteable markdown structures for scaffolding the target `/docs` folder. |
 
 ## Repository Structure
@@ -32,6 +33,7 @@ agentic-ide-docs-builder/
 ├── AGENT-INSTRUCTIONS.md     ← Paste into your AI Assistant prompt
 │
 ├── concepts/                 ← Knowledge on how to write good documentation
+├── skills/                   ← AI agent skills (rules and logic)
 └── templates/                ← Scaffolding structures to inject into target projects
 ```
 

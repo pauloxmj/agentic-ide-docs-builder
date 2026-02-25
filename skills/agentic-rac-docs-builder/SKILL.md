@@ -1,4 +1,4 @@
-<template target_path=".agents/skills/agentic-rac-docs-builder/SKILL.md">
+<template target_path="skills/agentic-rac-docs-builder/SKILL.md">
 ---
 name: agentic-rac-docs-builder
 description: Use this skill whenever requested to create, update, or manage project documentation. It guarantees all documentation adheres strictly to the Retrieval-Augmented Context (RAC) schema and formatting rules for flawless AI parseability.

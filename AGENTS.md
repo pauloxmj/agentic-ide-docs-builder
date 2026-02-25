@@ -18,4 +18,5 @@ This file defines the strict XML parsing boundaries (`<concept>`, `<template>`) 
 Our knowledge base is mathematically divided for deterministic semantic extraction:
 
 1. **`concepts/`**: Universal knowledge on Docs-as-Code and architecture documentation, wrapped in `<concept>` tags.
-2. **`templates/`**: Production-ready starter templates for mapping a project's Architecture, Data, QA, Standards, State, and Workflows, bounded by `<template>` tags.
+2. **`skills/`**: AI agent skills (rules and logic) and global/project-level automation, bounded by `<template>` tags.
+3. **`templates/`**: Production-ready starter templates for mapping a project's Architecture, Data, QA, Standards, State, and Workflows, bounded by `<template>` tags.
