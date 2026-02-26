@@ -1,4 +1,8 @@
-<template target_path="docs/workflows/01_git_flow.md">
+---
+target_path: docs/workflows/01_trunk_based_dev.md
+category: template
+---
+
 # Git Workflow & Branching Strategy
 
 > **Agent Directive:** When using the terminal to interact with Git, you must follow these branch naming and commit message conventions.
@@ -19,4 +23,3 @@ We use Conventional Commits.
 
 ## 3. Pulling & Pushing
 Always pull `main` and rebase your feature branch before pushing to avoid complex merge commits.
-</template>

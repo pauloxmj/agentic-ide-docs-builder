@@ -1,4 +1,8 @@
-<template target_path="docs/standards/02_ui_ux_rules.md">
+---
+target_path: docs/standards/02_ui_ux_rules.md
+category: template
+---
+
 # UI/UX Rules & Styling Architecture
 
 > **Agent Directive:** Always reference these rules when creating or modifying user interfaces. If the design requires a token or utility not listed here or in the foundation files, flag it for human review.
@@ -19,4 +23,3 @@
 - **Keyboard Navigation:** Every interactive element must be reachable and actionable via keyboard.
 - **Focus States:** Distinct, visible focus rings.
 - **Contrast:** Ensure text passes WCAG AA contrast ratio.
-</template>

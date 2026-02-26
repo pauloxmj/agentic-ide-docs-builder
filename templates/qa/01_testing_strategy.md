@@ -1,4 +1,8 @@
-<template target_path="docs/qa/01_testing_strategy.md">
+---
+target_path: docs/qa/01_testing_strategy.md
+category: template
+---
+
 # Testing Strategy & Rules
 
 > **Agent Directive:** This document governs how tests are written and executed. Your code must include tests that align perfectly with this strategy.
@@ -21,4 +25,3 @@
 
 ## 5. Coverage Requirements
 - [Extract coverage thresholds from CI or config, e.g., "The CI pipeline enforces an 80% statement coverage threshold."]
-</template>

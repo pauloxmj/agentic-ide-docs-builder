@@ -1,4 +1,8 @@
-<template target_path="docs/infrastructure/02_ci_cd_pipeline.md">
+---
+target_path: docs/infrastructure/02_ci_cd_pipeline.md
+category: template
+---
+
 # CI/CD Pipeline & Deployment Strategy
 
 > **Agent Directive:** This document explains how code moves from a developer's machine into production. When creating workflows or scripts, ensure they align with these constraints (e.g., test thresholds, linting rules).
@@ -23,4 +27,3 @@ Every Pull Request to `main` must pass the following checks sequentially:
 
 ## 4. Containerization ([Docker/Podman/None])
 [If a Dockerfile exists, summarize its multi-stage build process.]
-</template>

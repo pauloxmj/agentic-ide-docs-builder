@@ -1,4 +1,8 @@
-<template target_path="docs/product/01_prd.md">
+---
+target_path: docs/product/01_prd.md
+category: template
+---
+
 # Product Requirements Document (PRD)
 
 > **Agent Directive:** This document provides the overarching "Why" and "What" of the application based on your initial prompt. Do not execute coding tasks directly from this document. Use this context to understand the *business logic* and *user goals* when making architectural decisions. Actionable tasks are located in `02_active_task.md`.
@@ -24,4 +28,3 @@
 | Term | Definition |
 | :--- | :--- |
 | `[Domain Specific Term]` | `[Definition to ensure the AI uses consistent domain language in variables]` |
-</template>

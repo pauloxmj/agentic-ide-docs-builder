@@ -1,4 +1,8 @@
-<template target_path="docs/data/01_database_schema.md">
+---
+target_path: docs/data/01_database_schema.md
+category: template
+---
+
 # Database Schema & Relations
 
 > **Agent Directive:** This document is the absolute source of truth for the database structure. Do not invent columns, tables, or relations. If a required field is missing here, you must ask the user to update this schema before proceeding with code generation. Never generate migration files unless explicitly requested.
@@ -19,4 +23,3 @@
 
 ## Entity-Relationship Diagram (ERD)
 [Generate a Mermaid ERD summarizing the relations mapped above.]
-</template>

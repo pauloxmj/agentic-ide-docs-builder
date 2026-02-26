@@ -1,4 +1,8 @@
-<template target_path="docs/standards/01_coding_guidelines.md">
+---
+target_path: docs/standards/01_coding_guidelines.md
+category: template
+---
+
 # Coding Guidelines
 
 > **Agent Directive:** This document dictates how code should look and behave. Adhere strictly to these patterns to ensure consistency across the codebase.
@@ -20,4 +24,3 @@
 
 ## 4. Modern Paradigms
 - [e.g., Prefer pure functions, do not mutate React state directly, strict null checks]
-</template>

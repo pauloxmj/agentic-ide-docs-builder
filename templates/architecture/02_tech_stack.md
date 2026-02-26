@@ -1,4 +1,8 @@
-<template target_path="docs/architecture/02_tech_stack.md">
+---
+target_path: docs/architecture/02_tech_stack.md
+category: template
+---
+
 # Technology Stack & Allowed Tools
 
 > **Agent Directive:** You are strictly forbidden from installing new libraries, languages, or frameworks that are not listed in this document without explicit human authorization. Use the exact versions specified.
@@ -19,4 +23,3 @@
 - **Package Manager:** [e.g., npm/pnpm/yarn based on lockfile]
 - **Linter/Formatter:** [e.g., ESLint/Prettier based on configs]
 - **Testing:** [e.g., Jest/Vitest based on configs]
-</template>

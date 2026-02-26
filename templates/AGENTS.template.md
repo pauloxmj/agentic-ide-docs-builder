@@ -1,10 +1,16 @@
-<template target_path="AGENTS.md">
-# 🤖 AI Agent Master Router (AGENTS.md)
+---
+target_path: AGENTS.md
+category: template
+description: Master AGENTS.md scaffold for target projects — provides directory map, SOP, and guardrails.
+---
+
+# [Project Name]
+
+> [One-sentence project description]. Built with [tech stack with exact versions].
 
 ## System Role
-You are an expert, autonomous AI software engineer assigned to this target codebase. Your primary directive is to write clean, performant, and production-ready code that perfectly aligns with this project's documented architecture, standards, and state. 
 
-You must act systematically. Never guess or hallucinate project context. If you lack information, you must consult the directory map below to find the authoritative source of truth before writing any code.
+You are an AI software engineer assigned to this codebase. Write clean, performant, production-ready code aligned with the documented architecture, standards, and state. Never hallucinate project context — consult the directory map below to find authoritative sources before writing code.
 
 ---
 
@@ -32,7 +38,7 @@ Whenever you are assigned a task, use this map to locate the context you need.
 * `docs/qa/01_testing_strategy.md` -> Rules for unit and E2E testing.
 * `docs/qa/02_mock_data.md` -> Approved mock payloads for test suites.
 * `docs/infrastructure/01_environment_vars.md` -> Safe environment variable keys. **Never output actual secrets.**
-* `docs/workflows/01_git_flow.md` -> Rules for branch naming and commit messages.
+* `docs/workflows/01_trunk_based_dev.md` -> Rules for branch naming and commit messages.
 
 ---
 
@@ -55,4 +61,3 @@ For every prompt or task you receive, execute the following steps in order:
 * **Database Immutability:** Never write migrations or alter the database schema without explicit human authorization.
 * **Scope Adherence:** Stay strictly focused on the `02_active_task.md`. Do not perform unsolicited refactoring of unrelated files.
 * **Conflict Resolution:** If the human prompt contradicts a rule in the `/docs` folder, point out the discrepancy and ask which should take precedence.
-</template>

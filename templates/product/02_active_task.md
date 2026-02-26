@@ -1,4 +1,8 @@
-<template target_path="docs/product/02_active_task.md">
+---
+target_path: docs/product/02_active_task.md
+category: template
+---
+
 # Active Task / Current Objective
 
 > **Agent Directive:** This is your immediate task. You must not deviate from this objective. When you finish this task, update the `status` to `done` and wait for the human to assign the next objective.
@@ -16,4 +20,3 @@
 
 ## 4. Current Status
 `in_progress` <!-- Options: todo, in_progress, blocked, done -->
-</template>

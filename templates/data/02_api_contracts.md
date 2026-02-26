@@ -1,4 +1,8 @@
-<template target_path="docs/data/02_api_contracts.md">
+---
+target_path: docs/data/02_api_contracts.md
+category: template
+---
+
 # API Contracts & Endpoints
 
 > **Agent Directive:** This document defines the expected request/response shapes for all API routes. Do not alter existing contracts without explicit human permission. New features must adhere to established payload structures.
@@ -30,4 +34,3 @@
   "key": "type"
 }
 ```
-</template>

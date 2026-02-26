@@ -1,4 +1,8 @@
-<template target_path="docs/qa/02_mock_data.md">
+---
+target_path: docs/qa/02_mock_data.md
+category: template
+---
+
 # Approved Mock Data
 
 > **Agent Directive:** When writing tests or building UI components without a live backend, use *these exact payload structures*. Do not generate random faker data unless explicitly told to.
@@ -15,4 +19,3 @@
   "role": "user"
 }
 ```
-</template>

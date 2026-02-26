@@ -1,4 +1,8 @@
-<template target_path="docs/workflows/02_pr_guidelines.md">
+---
+target_path: docs/workflows/02_pr_guidelines.md
+category: template
+---
+
 # Pull Request Guidelines
 
 > **Agent Directive:** Before you suggest to the human that a task is complete and ready for a Pull Request, you must autonomously verify this checklist.
@@ -30,4 +34,3 @@ Resolves #[Ticket Number/Active Task]
 - [ ] Tests pass
 - [ ] Changelog updated
 ```
-</template>
